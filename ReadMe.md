@@ -1,7 +1,7 @@
 # gogetwindow
 
 
-This simple module allows go programs to get the name of the currently active window. It is a wrapper around the GetForegroundWindow() function in the user32.dll library.
+This simple module allows go programs to get the name of the currently active window. For Windows it is a wrapper around the GetForegroundWindow() function in the user32.dll library, in Linux it uses xdotool.
 
 This is useful for creating application specific macros or tracking application usage.
 
