@@ -1,4 +1,4 @@
-module github.com/egosown/gogetwindow
+module github.com/egosown/gogetwindow/getwindow
 
 go 1.19
 
